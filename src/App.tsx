@@ -54,7 +54,14 @@ function App() {
               </div>
               <div className="flex items-center gap-2">
                 <div className="text-xs text-muted-foreground">
-                  🚀 Just launched on Pump Fun! CA: CmcZS7g4PFh6bzqpAid9Csiqf9nQs2CZSH4EoZ78pump
+                  🚀 Just launched on Pump Fun! CA:
+                  <button
+                    onClick={() => navigator.clipboard.writeText('CmcZS7g4PFh6bzqpAid9Csiqf9nQs2CZSH4EoZ78pump')}
+                    className="ml-1 px-1 py-0.5 bg-muted/50 hover:bg-muted rounded text-xs font-mono transition-colors cursor-pointer border border-border"
+                    title="Click to copy CA"
+                  >
+                    CmcZS7g4PFh6bzqpAid9Csiqf9nQs2CZSH4EoZ78pump
+                  </button>
                 </div>
                 <ExportImportButtons />
                 <ThemeToggle />
