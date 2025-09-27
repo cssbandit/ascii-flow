@@ -1,4 +1,4 @@
-# [ASCII Flow](https://ascii-flow.netlify.app)
+# [ASCII Flow](https://asciiflow.xyz)
 
 ![ASCII Flow](https://img.shields.io/badge/status-in%20development-yellow)
 ![License](https://img.shields.io/badge/license-MIT-blue)
@@ -6,9 +6,9 @@
 A web app for creating and animating ASCII/ANSI art. 
 
 Current deployed version:
-https://ascii-flow.netlify.app
+https://asciiflow.xyz
 
-<img width="2610" height="1758" alt="Screenshot of the ASCII Flow app UI" src="https://github.com/user-attachments/assets/e2be1571-c322-4c8f-bdef-10ab01eb9a05" />
+<img width="2610" height="1758" alt="Screenshot of the ASCII Flow app UI" src="https://raw.githubusercontent.com/cssbandit/ascii-flow/main/public/screenshot.png" />
 </br>
 
 ## 🎨 Current Features

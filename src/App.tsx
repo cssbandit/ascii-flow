@@ -43,12 +43,11 @@ function App() {
           <div className="px-4 py-2">
             <div className="flex justify-between items-center">
               <div className="flex gap-3 relative">
-                <pre className="font-mono text-[6px] leading-[1.1] ascii-logo-selectable tracking-tighter">
-                  <div className="text-purple-500">----▗▄▖  ▗▄▄▖ ▗▄▄▖▗▄▄▄▖▗▄▄▄▖    ▗▖  ▗▖ ▗▄▖▗▄▄▄▖▗▄▄▄▖ ▗▄▖ ▗▖  ▗▖</div>
-                  <div className="text-purple-400"> --▐▌ ▐▌▐▌   ▐▌     █    █      ▐▛▚▞▜▌▐▌ ▐▌ █    █  ▐▌ ▐▌▐▛▚▖▐▌</div>
-                  <div className="text-purple-400">  -▐▛▀▜▌ ▝▀▚▖▐▌     █    █      ▐▌  ▐▌▐▌ ▐▌ █    █  ▐▌ ▐▌▐▌ ▝▜▌</div>
-                  <div className="text-purple-300">  -▐▌ ▐▌▗▄▄▞▘▝▚▄▄▖▗▄█▄▖▗▄█▄▖    ▐▌  ▐▌▝▚▄▞▘ █  ▗▄█▄▖▝▚▄▞▘▐▌  ▐▌</div>
-                </pre>
+                <img
+                  src="/ascii-flow-logo.png"
+                  alt="ASCII Flow"
+                  className="h-12 w-auto"
+                />
                 <div className="absolute left-full ml-3" style={{ bottom: '-.5em' }}>
                   <VersionDisplay />
                 </div>
