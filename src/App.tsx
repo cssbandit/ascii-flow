@@ -53,6 +53,9 @@ function App() {
                 </div>
               </div>
               <div className="flex items-center gap-2">
+                <div className="text-xs text-muted-foreground">
+                  🚀 Just launched on Pump Fun! CA: CmcZS7g4PFh6bzqpAid9Csiqf9nQs2CZSH4EoZ78pump
+                </div>
                 <ExportImportButtons />
                 <ThemeToggle />
               </div>
