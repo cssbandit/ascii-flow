@@ -1,0 +1,79 @@
+/* ASCII Motion App Styles */
+
+/* Canvas grid specific styles */
+.canvas-grid {
+  font-family: 'Courier New', 'Monaco', 'Menlo', monospace;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+/* Ensure proper text rendering for ASCII characters */
+.ascii-cell {
+  text-rendering: optimizeSpeed;
+  font-variant-ligatures: none;
+  font-feature-settings: "liga" 0;
+}
+
+/* Custom scrollbar for all themes */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted-foreground) / 0.3);
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground) / 0.5);
+}
+
+/* Custom scrollbar for dark theme */
+.dark ::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted-foreground) / 0.3);
+  border-radius: 0;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground) / 0.5);
+}
+
+/* Left panel scrollbar positioning */
+.left-panel-scroll {
+  direction: rtl;
+}
+
+.left-panel-scroll > * {
+  direction: ltr;
+}
+
+.left-panel-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.left-panel-scroll::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+}
+
+.left-panel-scroll::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted-foreground) / 0.3);
+  border-radius: 0;
+}
+
+.left-panel-scroll::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground) / 0.5);
+}
