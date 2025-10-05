@@ -1,7 +1,7 @@
-# ASCII Motion - Product Requirements Document
+# ASCII Magic - Product Requirements Document
 
 ## Overview
-ASCII Motion is a web-based application for creating, editing, and animating ASCII art with professional timeline controls and multiple export formats.
+ASCII Magic is a web-based application for creating, editing, and animating ASCII art with professional timeline controls and multiple export formats.
 
 ## Vision
 Enable artists and developers to create sophisticated ASCII animations with intuitive tools, frame-by-frame control, and professional export capabilities.

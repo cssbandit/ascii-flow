@@ -1,6 +1,6 @@
-# [ASCII Flow](https://asciiflow.xyz)
+# [ASCII Magic](https://asciiflow.xyz)
 
-![ASCII Flow](https://img.shields.io/badge/status-in%20development-yellow)
+![ASCII Magic](https://img.shields.io/badge/status-in%20development-yellow)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
 A web app for creating and animating ASCII/ANSI art. 
@@ -8,7 +8,7 @@ A web app for creating and animating ASCII/ANSI art.
 Current deployed version:
 https://asciiflow.xyz
 
-<img width="2610" height="1758" alt="Screenshot of the ASCII Flow app UI" src="https://raw.githubusercontent.com/cssbandit/ascii-flow/main/public/screenshot.png" />
+<img width="2610" height="1758" alt="Screenshot of the ASCII Magic app UI" src="https://raw.githubusercontent.com/cssbandit/ascii-flow/main/public/screenshot.png" />
 </br>
 
 ## 🎨 Current Features
