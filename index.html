@@ -12,7 +12,32 @@
     <link rel="manifest" href="/site.webmanifest" />
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ASCII Magic</title>
+    <title>ASCII Motion - Professional ASCII Art Animation Tool</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="ASCII Motion - Professional ASCII art creation and animation tool. Transform images into animated ASCII art with timeline controls, onion skinning, and multiple export formats." />
+    <meta name="keywords" content="ASCII art, animation, digital art, ASCII Motion, timeline, onion skinning, export, React, TypeScript, Web3, Solana" />
+    <meta name="author" content="ASCII Motion" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="ASCII Motion - Professional ASCII Art Animation Tool" />
+    <meta property="og:description" content="Transform any image into animated ASCII art with professional timeline controls, onion skinning, and multiple export formats." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://asciiflow.xyz" />
+    <meta property="og:image" content="https://asciiflow.xyz/screenshot.png" />
+    <meta property="og:site_name" content="ASCII Motion" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ASCII Motion - Professional ASCII Art Animation Tool" />
+    <meta name="twitter:description" content="Transform any image into animated ASCII art with professional timeline controls and export options." />
+    <meta name="twitter:image" content="https://asciiflow.xyz/screenshot.png" />
+    
+    <!-- Additional Meta Tags -->
+    <meta name="theme-color" content="#000000" />
+    <meta name="apple-mobile-web-app-title" content="ASCII Motion" />
+    <meta name="application-name" content="ASCII Motion" />
   </head>
   <body>
     <div id="root">
@@ -43,7 +68,7 @@
             line-height: 1;
             margin: 0 0 24px 0;
             color: hsl(0, 0%, 98%);
-          ">     Loading ASCII Magic<span id="loading-dots">...</span></pre>
+          ">     Loading ASCII Motion<span id="loading-dots">...</span></pre>
           
           <!-- Loading bar -->
           <pre style="
@@ -66,7 +91,7 @@
     <script>
       // Theme detection - check localStorage or system preference
       const getInitialTheme = () => {
-        const stored = localStorage.getItem('ascii-magic-theme');
+        const stored = localStorage.getItem('ascii-motion-theme');
         if (stored) return stored;
         
         return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
