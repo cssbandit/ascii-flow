@@ -56,11 +56,11 @@ function App() {
                 <div className="text-xs text-muted-foreground">
                   🚀 Just launched on Pump Fun! CA:
                   <button
-                    onClick={() => navigator.clipboard.writeText('EGwQ1y4u38mgvQ3hkHFJHP7sae8pFYHS4P6BeWrhpump')}
+                    onClick={() => navigator.clipboard.writeText('EQeSDKvW2k5ujuPJKctb78JMREQ4BAarzkCpFDJWpump')}
                     className="ml-1 px-1 py-0.5 bg-muted/50 hover:bg-muted rounded text-xs font-mono transition-colors cursor-pointer border border-border"
                     title="Click to copy CA"
                   >
-                    EGwQ1y4u38mgvQ3hkHFJHP7sae8pFYHS4P6BeWrhpump
+                    EQeSDKvW2k5ujuPJKctb78JMREQ4BAarzkCpFDJWpump
                   </button>
                 </div>
                 <ExportImportButtons />
